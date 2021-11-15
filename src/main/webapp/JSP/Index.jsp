@@ -11,8 +11,8 @@
 
  <h1>HappyJam</h1>
 <main>
-  <button onclick="location.href='./.jsp'"><span>Single</span></button>
-  <button onclick="location.href='./.jsp'">Multi</button>
+  <button onclick="location.href='./Genre.jsp'"><span>Single</span></button>
+  <button onclick="location.href='./Room.jsp'">Multi</button>
 
 </main>
 
