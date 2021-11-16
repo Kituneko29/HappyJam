@@ -16,5 +16,6 @@
 <form action = "<%= request.getContextPath() + "/Preview" %>" method = "POST">
 <input type = "submit" value = "continue">
 </form>
+
 </body>
 </html>
