@@ -4,9 +4,17 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<link rel="stylesheet"  href="${pageContext.request.contextPath}/CSS/Preview.css" />
+<title>HappyJam-Preview</title>
 </head>
 <body>
 
+<h1>HappyJam</h1>
+<form action = "<%= request.getContextPath() + "/Preview" %>" method = "POST">
+<input type = "submit" value = "home">
+</form>
+<form action = "<%= request.getContextPath() + "/Preview" %>" method = "POST">
+<input type = "submit" value = "continue">
+</form>
 </body>
 </html>
