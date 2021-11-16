@@ -8,13 +8,14 @@
 <title>HappyJam-Home</title>
 </head>
 <body>
+<div class="hit-the-floor">HappyJam</div>
+<br>
+<br>
 
- <h1>HappyJam</h1>
-<main>
-  <button onclick="location.href='./Genre.jsp'"><span>Single</span></button>
-  <button onclick="location.href='./Room.jsp'">Multi</button>
-
-</main>
+		 	<main>
+  				<button onclick="location.href='./Genre.jsp'"><span>Single</span></button>
+  				<button onclick="location.href='./Room.jsp'">Multi</button>
+		 	</main>
 
 </body>
 </html>
